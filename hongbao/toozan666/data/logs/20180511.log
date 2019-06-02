@@ -1,0 +1,102 @@
+2018-05-11 22:02:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjuTLXuwaXEuJq167hLTB1ac]]></FromUserName>
+<CreateTime>1526047331</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6554323379296336888</MsgId>
+</xml>
+
+2018-05-11 22:02:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjuTLXuwaXEuJq167hLTB1ac',
+    'createtime' => '1526047331',
+    'msgtype' => 'text',
+    'content' => '1',
+    'msgid' => '6554323379296336888',
+    'from' => 'oF_mkjuTLXuwaXEuJq167hLTB1ac',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1526047331',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'reply',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '27',
+    'rid' => '21',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'news',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'news',
+  ),
+)
+
+2018-05-11 22:02:11 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjuTLXuwaXEuJq167hLTB1ac ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2018-05-11 22:02:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjuTLXuwaXEuJq167hLTB1ac]]></FromUserName>
+<CreateTime>1526047336</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[z]]></Content>
+<MsgId>6554323400771173370</MsgId>
+</xml>
+
+2018-05-11 22:02:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjuTLXuwaXEuJq167hLTB1ac',
+    'createtime' => '1526047336',
+    'msgtype' => 'text',
+    'content' => 'z',
+    'msgid' => '6554323400771173370',
+    'from' => 'oF_mkjuTLXuwaXEuJq167hLTB1ac',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1526047336',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2018-05-11 22:02:18 response :
+------------
+

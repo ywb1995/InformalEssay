@@ -1,0 +1,41 @@
+{template 'common/header'}
+<div class="panel-body">
+    <form action="./index.php?c=mc&a=hongbao&do=savedata" method="post">
+        <table class="table we7-table table-hover fans-info vertical-middle">
+            <tr>
+                <td colspan="2" align="left">
+                    增加红包
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 200px;">名称:</td>
+                <td> <input  type="text" class="form-control" name="name"/></td>
+            </tr>
+            <tr>
+                <td style="width: 200px;">红包金额:</td>
+                <td> <input  type="text" class="form-control"  name="money"/></td>
+            </tr>
+            <tr>
+                <td style="width: 200px;">红包数量:</td>
+                <td> <input  type="number" class="form-control"  name="number"  /></td>
+            </tr>
+            <tr>
+                <td style="width: 200px;">产品名称:</td>
+                <td> <input  type="text" class="form-control"  name="product_name"/></td>
+            </tr>
+            <tr>
+                <td style="width: 200px;">产品规格:</td>
+                <td> <input  type="text" class="form-control"  name="product_site"/></td>
+            </tr>
+            <tr>
+                <td style="width: 200px;">产品价格:</td>
+                <td> <input  type="text" class="form-control"   name="product_money"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

@@ -1,0 +1,565 @@
+2019-02-28 09:36:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjrpgT7Y5x70Pbw_AjU1iyVE]]></FromUserName>
+<CreateTime>1551317775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301485866371473--5332]]></EventKey>
+<Ticket><![CDATA[gQGT8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyZ3lwVU05blZhQWUxMDAwME0wN0wAAgTqNjRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-02-28 09:36:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjrpgT7Y5x70Pbw_AjU1iyVE',
+    'createtime' => '1551317775',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301485866371473--5332',
+    'ticket' => 'gQGT8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyZ3lwVU05blZhQWUxMDAwME0wN0wAAgTqNjRbAwQAAAAA',
+    'from' => 'oF_mkjrpgT7Y5x70Pbw_AjU1iyVE',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551317775',
+    'type' => 'text',
+    'scene' => 'TZHB15301485866371473--5332',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-02-28 09:36:17 response :
+------------
+
+2019-02-28 09:54:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjglOsRCOW9LAmWURaHHg92w]]></FromUserName>
+<CreateTime>1551318839</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15367436281594830--10083]]></EventKey>
+<Ticket><![CDATA[gQHc8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyTVV5M01VblZhQWUxMDAwMDAwN3MAAgTM2JhbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-02-28 09:54:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjglOsRCOW9LAmWURaHHg92w',
+    'createtime' => '1551318839',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15367436281594830--10083',
+    'ticket' => 'gQHc8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyTVV5M01VblZhQWUxMDAwMDAwN3MAAgTM2JhbAwQAAAAA',
+    'from' => 'oF_mkjglOsRCOW9LAmWURaHHg92w',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551318839',
+    'type' => 'text',
+    'scene' => 'TZHB15367436281594830--10083',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-02-28 09:54:01 response :
+------------
+
+2019-02-28 14:01:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjilE-YrgIWlh4THtrHPzpbI]]></FromUserName>
+<CreateTime>1551333669</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-02-28 14:40:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336027</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-02-28 14:40:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336027',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336027',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-02-28 14:40:28 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjtHjJb_u7YhEjW3Ltrvp53Q ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-02-28 14:40:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336034</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.255075</Latitude>
+<Longitude>111.450851</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-28 14:40:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336034',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.255075',
+    'longitude' => '111.450851',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336034',
+    'type' => 'trace',
+    'location_x' => '27.255075',
+    'location_y' => '111.450851',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-28 14:40:35 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-28 14:40:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336047</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[5]]></Content>
+<MsgId>22209792890709465</MsgId>
+</xml>
+
+2019-02-28 14:40:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336047',
+    'msgtype' => 'text',
+    'content' => '5',
+    'msgid' => '22209792890709465',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336047',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'reply',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '26',
+    'rid' => '20',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '5',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'news',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'news',
+  ),
+)
+
+2019-02-28 14:40:48 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjtHjJb_u7YhEjW3Ltrvp53Q ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2019-02-28 14:40:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.255075</Latitude>
+<Longitude>111.450851</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-28 14:40:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336056',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.255075',
+    'longitude' => '111.450851',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336056',
+    'type' => 'trace',
+    'location_x' => '27.255075',
+    'location_y' => '111.450851',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-28 14:40:56 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-28 14:41:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336060</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[3]]></Content>
+<MsgId>22209793114427462</MsgId>
+</xml>
+
+2019-02-28 14:41:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336060',
+    'msgtype' => 'text',
+    'content' => '3',
+    'msgid' => '22209793114427462',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336060',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'reply',
+  'rule' => '34',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '55',
+    'rid' => '34',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '3',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'news',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'news',
+  ),
+)
+
+2019-02-28 14:41:01 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjtHjJb_u7YhEjW3Ltrvp53Q ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2019-02-28 14:43:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336235</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.255363</Latitude>
+<Longitude>111.451088</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-28 14:43:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336235',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.255363',
+    'longitude' => '111.451088',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336235',
+    'type' => 'trace',
+    'location_x' => '27.255363',
+    'location_y' => '111.451088',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-28 14:43:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-28 14:44:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336282</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.255363</Latitude>
+<Longitude>111.451088</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-28 14:44:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336282',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.255363',
+    'longitude' => '111.451088',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336282',
+    'type' => 'trace',
+    'location_x' => '27.255363',
+    'location_y' => '111.451088',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-28 14:44:43 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-28 14:45:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336305</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.255363</Latitude>
+<Longitude>111.451088</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-28 14:45:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336305',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.255363',
+    'longitude' => '111.451088',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336305',
+    'type' => 'trace',
+    'location_x' => '27.255363',
+    'location_y' => '111.451088',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-28 14:45:05 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-28 14:49:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551336542</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.255341</Latitude>
+<Longitude>111.450844</Longitude>
+<Precision>110.000000</Precision>
+</xml>
+
+2019-02-28 14:49:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'createtime' => '1551336542',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.255341',
+    'longitude' => '111.450844',
+    'precision' => '110.000000',
+    'from' => 'oF_mkjtHjJb_u7YhEjW3Ltrvp53Q',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1551336542',
+    'type' => 'trace',
+    'location_x' => '27.255341',
+    'location_y' => '111.450844',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-28 14:49:02 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-28 16:36:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtHjJb_u7YhEjW3Ltrvp53Q]]></FromUserName>
+<CreateTime>1551343004</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

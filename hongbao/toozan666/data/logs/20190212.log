@@ -1,0 +1,172 @@
+2019-02-12 17:28:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjpsFhsyWY1Y0MYMyNdgWq6U]]></FromUserName>
+<CreateTime>1549963708</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15304975888041733--5682]]></EventKey>
+<Ticket><![CDATA[gQFN8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyT0c4VU5ablZhQWUxMDAwME0wN08AAgQ0ijlbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-02-12 17:28:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjpsFhsyWY1Y0MYMyNdgWq6U',
+    'createtime' => '1549963708',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15304975888041733--5682',
+    'ticket' => 'gQFN8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyT0c4VU5ablZhQWUxMDAwME0wN08AAgQ0ijlbAwQAAAAA',
+    'from' => 'oF_mkjpsFhsyWY1Y0MYMyNdgWq6U',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549963708',
+    'type' => 'text',
+    'scene' => 'TZHB15304975888041733--5682',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-02-12 17:28:31 response :
+------------
+
+2019-02-12 21:45:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjgVgBBDjMWfVdAEDbVrQ4TI]]></FromUserName>
+<CreateTime>1549979116</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>29.386999</Latitude>
+<Longitude>113.178970</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-12 21:45:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjgVgBBDjMWfVdAEDbVrQ4TI',
+    'createtime' => '1549979116',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '29.386999',
+    'longitude' => '113.178970',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjgVgBBDjMWfVdAEDbVrQ4TI',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549979116',
+    'type' => 'trace',
+    'location_x' => '29.386999',
+    'location_y' => '113.178970',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-12 21:45:17 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-12 21:45:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjgVgBBDjMWfVdAEDbVrQ4TI]]></FromUserName>
+<CreateTime>1549979132</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>29.386999</Latitude>
+<Longitude>113.178970</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-12 21:45:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjgVgBBDjMWfVdAEDbVrQ4TI',
+    'createtime' => '1549979132',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '29.386999',
+    'longitude' => '113.178970',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjgVgBBDjMWfVdAEDbVrQ4TI',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549979132',
+    'type' => 'trace',
+    'location_x' => '29.386999',
+    'location_y' => '113.178970',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-12 21:45:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-12 21:45:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjgVgBBDjMWfVdAEDbVrQ4TI]]></FromUserName>
+<CreateTime>1549979149</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>29.386999</Latitude>
+<Longitude>113.178970</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2019-02-12 21:45:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjgVgBBDjMWfVdAEDbVrQ4TI',
+    'createtime' => '1549979149',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '29.386999',
+    'longitude' => '113.178970',
+    'precision' => '30.000000',
+    'from' => 'oF_mkjgVgBBDjMWfVdAEDbVrQ4TI',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549979149',
+    'type' => 'trace',
+    'location_x' => '29.386999',
+    'location_y' => '113.178970',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-12 21:45:50 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

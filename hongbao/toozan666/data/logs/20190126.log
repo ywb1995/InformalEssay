@@ -1,0 +1,1251 @@
+2019-01-26 06:15:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjjdAWlYVIW_KSAnADHN8McQ]]></FromUserName>
+<CreateTime>1548454517</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_TZHB15367436598387926--10226]]></EventKey>
+<Ticket><![CDATA[gQGx8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyWk9jRE1SblZhQWUxMDAwME0wN2MAAgTr2JhbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 06:15:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjjdAWlYVIW_KSAnADHN8McQ',
+    'createtime' => '1548454517',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_TZHB15367436598387926--10226',
+    'ticket' => 'gQGx8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyWk9jRE1SblZhQWUxMDAwME0wN2MAAgTr2JhbAwQAAAAA',
+    'from' => 'oF_mkjjdAWlYVIW_KSAnADHN8McQ',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548454517',
+    'type' => 'text',
+    'scene' => 'TZHB15367436598387926--10226',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 06:15:20 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjjdAWlYVIW_KSAnADHN8McQ ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-01-26 07:34:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjmN_DZcUWWmnCWF_b4RrCqU]]></FromUserName>
+<CreateTime>1548459249</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301484608356654--4595]]></EventKey>
+<Ticket><![CDATA[gQFR8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeEVBeU1KblZhQWUxMDAwMDAwN0YAAgRsNjRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 07:34:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjmN_DZcUWWmnCWF_b4RrCqU',
+    'createtime' => '1548459249',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301484608356654--4595',
+    'ticket' => 'gQFR8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeEVBeU1KblZhQWUxMDAwMDAwN0YAAgRsNjRbAwQAAAAA',
+    'from' => 'oF_mkjmN_DZcUWWmnCWF_b4RrCqU',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548459249',
+    'type' => 'text',
+    'scene' => 'TZHB15301484608356654--4595',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 07:34:10 response :
+------------
+
+2019-01-26 07:43:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjgvrn4uz343kzYoh55jqo4s]]></FromUserName>
+<CreateTime>1548459833</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-01-26 09:19:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjvIQMkgOCN440mGneHXbMqk]]></FromUserName>
+<CreateTime>1548465580</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15444181380025289--12205]]></EventKey>
+<Ticket><![CDATA[gQF48DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHVtdk1jblZhQWUxMDAwMDAwNzQAAgRa8w1cAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 09:19:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjvIQMkgOCN440mGneHXbMqk',
+    'createtime' => '1548465580',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15444181380025289--12205',
+    'ticket' => 'gQF48DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAybHVtdk1jblZhQWUxMDAwMDAwNzQAAgRa8w1cAwQAAAAA',
+    'from' => 'oF_mkjvIQMkgOCN440mGneHXbMqk',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548465580',
+    'type' => 'text',
+    'scene' => 'TZHB15444181380025289--12205',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 09:19:42 response :
+------------
+
+2019-01-26 09:49:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjhSUz8c_vvjssKcdBkaQ-yc]]></FromUserName>
+<CreateTime>1548467345</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15444180857448807--11860]]></EventKey>
+<Ticket><![CDATA[gQGN8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYWVmU01vblZhQWUxMDAwMHcwN0YAAgQl8w1cAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 09:49:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjhSUz8c_vvjssKcdBkaQ-yc',
+    'createtime' => '1548467345',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15444180857448807--11860',
+    'ticket' => 'gQGN8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYWVmU01vblZhQWUxMDAwMHcwN0YAAgQl8w1cAwQAAAAA',
+    'from' => 'oF_mkjhSUz8c_vvjssKcdBkaQ-yc',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548467345',
+    'type' => 'text',
+    'scene' => 'TZHB15444180857448807--11860',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 09:49:07 response :
+------------
+
+2019-01-26 10:43:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjjnWEDIzKTCTwHzXKiYUHoE]]></FromUserName>
+<CreateTime>1548470630</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301484942308788--4747]]></EventKey>
+<Ticket><![CDATA[gQHJ8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyZk5jVE1JblZhQWUxMDAwMHcwN3IAAgSONjRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 10:43:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjjnWEDIzKTCTwHzXKiYUHoE',
+    'createtime' => '1548470630',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301484942308788--4747',
+    'ticket' => 'gQHJ8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyZk5jVE1JblZhQWUxMDAwMHcwN3IAAgSONjRbAwQAAAAA',
+    'from' => 'oF_mkjjnWEDIzKTCTwHzXKiYUHoE',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548470630',
+    'type' => 'text',
+    'scene' => 'TZHB15301484942308788--4747',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 10:43:52 response :
+------------
+
+2019-01-26 10:56:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjvKmLT0-exsVx4D-arC1yWE]]></FromUserName>
+<CreateTime>1548471377</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15304979136232839--6939]]></EventKey>
+<Ticket><![CDATA[gQEa8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyODItSU5vblZhQWUxMDAwME0wN2oAAgR5izlbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 10:56:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjvKmLT0-exsVx4D-arC1yWE',
+    'createtime' => '1548471377',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15304979136232839--6939',
+    'ticket' => 'gQEa8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyODItSU5vblZhQWUxMDAwME0wN2oAAgR5izlbAwQAAAAA',
+    'from' => 'oF_mkjvKmLT0-exsVx4D-arC1yWE',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548471377',
+    'type' => 'text',
+    'scene' => 'TZHB15304979136232839--6939',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 10:56:17 response :
+------------
+
+2019-01-26 11:41:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjnfW47vk8426ha99mf7N2zA]]></FromUserName>
+<CreateTime>1548474109</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-01-26 12:15:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjvPgiySkf2u1W3tFOtZxtGw]]></FromUserName>
+<CreateTime>1548476124</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15286801609639684--2309]]></EventKey>
+<Ticket><![CDATA[gQFx8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyOC1jeU1OblZhQWUxMDAwMDAwN2IAAgThzh1bAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 12:15:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjvPgiySkf2u1W3tFOtZxtGw',
+    'createtime' => '1548476124',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15286801609639684--2309',
+    'ticket' => 'gQFx8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyOC1jeU1OblZhQWUxMDAwMDAwN2IAAgThzh1bAwQAAAAA',
+    'from' => 'oF_mkjvPgiySkf2u1W3tFOtZxtGw',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548476124',
+    'type' => 'text',
+    'scene' => 'TZHB15286801609639684--2309',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 12:15:26 response :
+------------
+
+2019-01-26 12:43:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjjFJb-PSD8m2YL7tKtGqZng]]></FromUserName>
+<CreateTime>1548477804</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15444181014129478--11972]]></EventKey>
+<Ticket><![CDATA[gQFs8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyaTd4bU5VblZhQWUxMDAwMHcwN2oAAgQ18w1cAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 12:43:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjjFJb-PSD8m2YL7tKtGqZng',
+    'createtime' => '1548477804',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15444181014129478--11972',
+    'ticket' => 'gQFs8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyaTd4bU5VblZhQWUxMDAwMHcwN2oAAgQ18w1cAwQAAAAA',
+    'from' => 'oF_mkjjFJb-PSD8m2YL7tKtGqZng',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548477804',
+    'type' => 'text',
+    'scene' => 'TZHB15444181014129478--11972',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 12:43:26 response :
+------------
+
+2019-01-26 12:57:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjk1cDPOUlz0GGJ-QhLfCQfE]]></FromUserName>
+<CreateTime>1548478665</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301481486825950--3908]]></EventKey>
+<Ticket><![CDATA[gQEx8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyejc3Sk5wblZhQWUxMDAwMHcwN3YAAgQ0NTRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 12:57:47 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjk1cDPOUlz0GGJ-QhLfCQfE',
+    'createtime' => '1548478665',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301481486825950--3908',
+    'ticket' => 'gQEx8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyejc3Sk5wblZhQWUxMDAwMHcwN3YAAgQ0NTRbAwQAAAAA',
+    'from' => 'oF_mkjk1cDPOUlz0GGJ-QhLfCQfE',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548478665',
+    'type' => 'text',
+    'scene' => 'TZHB15301481486825950--3908',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 12:57:47 response :
+------------
+
+2019-01-26 14:20:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtFJPez-griY2ZwJ4NkqwDg]]></FromUserName>
+<CreateTime>1548483606</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15367436869221871--10346]]></EventKey>
+<Ticket><![CDATA[gQHA8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRUkwaU5CblZhQWUxMDAwMHcwN0UAAgQH2ZhbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 14:20:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtFJPez-griY2ZwJ4NkqwDg',
+    'createtime' => '1548483606',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15367436869221871--10346',
+    'ticket' => 'gQHA8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRUkwaU5CblZhQWUxMDAwMHcwN0UAAgQH2ZhbAwQAAAAA',
+    'from' => 'oF_mkjtFJPez-griY2ZwJ4NkqwDg',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548483606',
+    'type' => 'text',
+    'scene' => 'TZHB15367436869221871--10346',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 14:20:06 response :
+------------
+
+2019-01-26 14:54:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjvKagq17pDo5ierR2S_5V6k]]></FromUserName>
+<CreateTime>1548485692</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_TZHB15264358419095605--302]]></EventKey>
+<Ticket><![CDATA[gQFY8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyWl9nT05hblZhQWUxMDAwMGcwN0MAAgQBkPtaAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 14:54:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjvKagq17pDo5ierR2S_5V6k',
+    'createtime' => '1548485692',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_TZHB15264358419095605--302',
+    'ticket' => 'gQFY8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyWl9nT05hblZhQWUxMDAwMGcwN0MAAgQBkPtaAwQAAAAA',
+    'from' => 'oF_mkjvKagq17pDo5ierR2S_5V6k',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548485692',
+    'type' => 'text',
+    'scene' => 'TZHB15264358419095605--302',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 14:54:53 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjvKagq17pDo5ierR2S_5V6k ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-01-26 14:55:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjvKagq17pDo5ierR2S_5V6k]]></FromUserName>
+<CreateTime>1548485712</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新优惠]]></EventKey>
+</xml>
+
+2019-01-26 14:55:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjvKagq17pDo5ierR2S_5V6k',
+    'createtime' => '1548485712',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '最新优惠',
+    'from' => 'oF_mkjvKagq17pDo5ierR2S_5V6k',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548485712',
+    'type' => 'text',
+    'content' => '最新优惠',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'reply',
+  'rule' => '53',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '115',
+    'rid' => '53',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '最新优惠',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 14:55:13 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjvKagq17pDo5ierR2S_5V6k ;
+MsgType : text ;
+Content : 优质服务季，一大波促销活动即将激情开启，敬请期待。 ;
+
+2019-01-26 14:55:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjvKagq17pDo5ierR2S_5V6k]]></FromUserName>
+<CreateTime>1548485728</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新优惠]]></EventKey>
+</xml>
+
+2019-01-26 14:55:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjvKagq17pDo5ierR2S_5V6k',
+    'createtime' => '1548485728',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '最新优惠',
+    'from' => 'oF_mkjvKagq17pDo5ierR2S_5V6k',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548485728',
+    'type' => 'text',
+    'content' => '最新优惠',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'reply',
+  'rule' => '53',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '115',
+    'rid' => '53',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '最新优惠',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 14:55:28 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjvKagq17pDo5ierR2S_5V6k ;
+MsgType : text ;
+Content : 优质服务季，一大波促销活动即将激情开启，敬请期待。 ;
+
+2019-01-26 14:56:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjlCG4O68So-FxXVtRC2GJV8]]></FromUserName>
+<CreateTime>1548485778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15447491226564298--12925]]></EventKey>
+<Ticket><![CDATA[gQHv8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNzNQbk1BblZhQWUxMDAwME0wN2MAAgRCABNcAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 14:56:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjlCG4O68So-FxXVtRC2GJV8',
+    'createtime' => '1548485778',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15447491226564298--12925',
+    'ticket' => 'gQHv8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNzNQbk1BblZhQWUxMDAwME0wN2MAAgRCABNcAwQAAAAA',
+    'from' => 'oF_mkjlCG4O68So-FxXVtRC2GJV8',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548485778',
+    'type' => 'text',
+    'scene' => 'TZHB15447491226564298--12925',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 14:56:20 response :
+------------
+
+2019-01-26 15:47:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjuYigPPFa6zCVi_I9zUrxlw]]></FromUserName>
+<CreateTime>1548488856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301483750859049--4230]]></EventKey>
+<Ticket><![CDATA[gQFS8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyLVZfTk5wblZhQWUxMDAwMHcwN3MAAgQXNjRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 15:47:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjuYigPPFa6zCVi_I9zUrxlw',
+    'createtime' => '1548488856',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301483750859049--4230',
+    'ticket' => 'gQFS8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyLVZfTk5wblZhQWUxMDAwMHcwN3MAAgQXNjRbAwQAAAAA',
+    'from' => 'oF_mkjuYigPPFa6zCVi_I9zUrxlw',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548488856',
+    'type' => 'text',
+    'scene' => 'TZHB15301483750859049--4230',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 15:47:38 response :
+------------
+
+2019-01-26 16:13:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjoIo2eQUCFe_6OVq-eHrJ5M]]></FromUserName>
+<CreateTime>1548490398</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301484256048954--4461]]></EventKey>
+<Ticket><![CDATA[gQEI8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydWdOZU11blZhQWUxMDAwMDAwN28AAgRJNjRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 16:13:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjoIo2eQUCFe_6OVq-eHrJ5M',
+    'createtime' => '1548490398',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301484256048954--4461',
+    'ticket' => 'gQEI8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydWdOZU11blZhQWUxMDAwMDAwN28AAgRJNjRbAwQAAAAA',
+    'from' => 'oF_mkjoIo2eQUCFe_6OVq-eHrJ5M',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548490398',
+    'type' => 'text',
+    'scene' => 'TZHB15301484256048954--4461',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 16:13:20 response :
+------------
+
+2019-01-26 17:30:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkji_G8m8EI7VflKsjLlqbhCE]]></FromUserName>
+<CreateTime>1548495012</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_TZHB15304978710759457--6592]]></EventKey>
+<Ticket><![CDATA[gQEe8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRlJGT05WblZhQWUxMDAwMGcwN0IAAgRPizlbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 17:30:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkji_G8m8EI7VflKsjLlqbhCE',
+    'createtime' => '1548495012',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_TZHB15304978710759457--6592',
+    'ticket' => 'gQEe8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRlJGT05WblZhQWUxMDAwMGcwN0IAAgRPizlbAwQAAAAA',
+    'from' => 'oF_mkji_G8m8EI7VflKsjLlqbhCE',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548495012',
+    'type' => 'text',
+    'scene' => 'TZHB15304978710759457--6592',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 17:30:14 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkji_G8m8EI7VflKsjLlqbhCE ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-01-26 18:05:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjsqqwBjTkfMY-jFtONHxq_w]]></FromUserName>
+<CreateTime>1548497124</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_TZHB15304979326689249--7106]]></EventKey>
+<Ticket><![CDATA[gQHA8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyLTNhWk1iblZhQWUxMDAwMGcwN2oAAgSMizlbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 18:05:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjsqqwBjTkfMY-jFtONHxq_w',
+    'createtime' => '1548497124',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_TZHB15304979326689249--7106',
+    'ticket' => 'gQHA8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyLTNhWk1iblZhQWUxMDAwMGcwN2oAAgSMizlbAwQAAAAA',
+    'from' => 'oF_mkjsqqwBjTkfMY-jFtONHxq_w',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548497124',
+    'type' => 'text',
+    'scene' => 'TZHB15304979326689249--7106',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 18:05:26 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjsqqwBjTkfMY-jFtONHxq_w ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-01-26 19:41:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjr_E5wG1v6Yh9GInbq1ROws]]></FromUserName>
+<CreateTime>1548502886</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_TZHB15286801597526671--2303]]></EventKey>
+<Ticket><![CDATA[gQEp8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRkM2X05oblZhQWUxMDAwMHcwN20AAgTfzh1bAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 19:41:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjr_E5wG1v6Yh9GInbq1ROws',
+    'createtime' => '1548502886',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_TZHB15286801597526671--2303',
+    'ticket' => 'gQEp8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRkM2X05oblZhQWUxMDAwMHcwN20AAgTfzh1bAwQAAAAA',
+    'from' => 'oF_mkjr_E5wG1v6Yh9GInbq1ROws',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548502886',
+    'type' => 'text',
+    'scene' => 'TZHB15286801597526671--2303',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 19:41:28 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjr_E5wG1v6Yh9GInbq1ROws ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-01-26 19:56:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjsLwPN6mgPRwieECfjymssU]]></FromUserName>
+<CreateTime>1548503810</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_TZHB15304976428136266--6162]]></EventKey>
+<Ticket><![CDATA[gQG18DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyb0JQY01HblZhQWUxMDAwMHcwN1oAAgRqijlbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 19:56:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjsLwPN6mgPRwieECfjymssU',
+    'createtime' => '1548503810',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_TZHB15304976428136266--6162',
+    'ticket' => 'gQG18DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyb0JQY01HblZhQWUxMDAwMHcwN1oAAgRqijlbAwQAAAAA',
+    'from' => 'oF_mkjsLwPN6mgPRwieECfjymssU',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548503810',
+    'type' => 'text',
+    'scene' => 'TZHB15304976428136266--6162',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-01-26 19:56:51 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjsLwPN6mgPRwieECfjymssU ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-01-26 21:10:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjhSUz8c_vvjssKcdBkaQ-yc]]></FromUserName>
+<CreateTime>1548508211</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15444180310752623--11560]]></EventKey>
+<Ticket><![CDATA[gQH28DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNGhrTk1KblZhQWUxMDAwMHcwN2MAAgTv8g1cAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 21:10:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjhSUz8c_vvjssKcdBkaQ-yc',
+    'createtime' => '1548508211',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15444180310752623--11560',
+    'ticket' => 'gQH28DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNGhrTk1KblZhQWUxMDAwMHcwN2MAAgTv8g1cAwQAAAAA',
+    'from' => 'oF_mkjhSUz8c_vvjssKcdBkaQ-yc',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548508211',
+    'type' => 'text',
+    'scene' => 'TZHB15444180310752623--11560',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 21:10:13 response :
+------------
+
+2019-01-26 22:48:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjqGL82OktqlNK8C760hP3rM]]></FromUserName>
+<CreateTime>1548514080</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-01-26 22:54:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtxW4p2N7ktAq0ZxK-EZGA8]]></FromUserName>
+<CreateTime>1548514456</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[TZHB15301480652732268--3536]]></EventKey>
+<Ticket><![CDATA[gQHM8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyVFZ0Q01MblZhQWUxMDAwMGcwNzUAAgThNDRbAwQAAAAA]]></Ticket>
+</xml>
+
+2019-01-26 22:54:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtxW4p2N7ktAq0ZxK-EZGA8',
+    'createtime' => '1548514456',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'TZHB15301480652732268--3536',
+    'ticket' => 'gQHM8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyVFZ0Q01MblZhQWUxMDAwMGcwNzUAAgThNDRbAwQAAAAA',
+    'from' => 'oF_mkjtxW4p2N7ktAq0ZxK-EZGA8',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548514456',
+    'type' => 'text',
+    'scene' => 'TZHB15301480652732268--3536',
+    'redirection' => true,
+    'source' => 'qr',
+  ),
+)
+
+2019-01-26 22:54:18 response :
+------------
+
+2019-01-26 22:54:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtxW4p2N7ktAq0ZxK-EZGA8]]></FromUserName>
+<CreateTime>1548514459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>37.561394</Latitude>
+<Longitude>118.578522</Longitude>
+<Precision>530.000000</Precision>
+</xml>
+
+2019-01-26 22:54:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtxW4p2N7ktAq0ZxK-EZGA8',
+    'createtime' => '1548514459',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '37.561394',
+    'longitude' => '118.578522',
+    'precision' => '530.000000',
+    'from' => 'oF_mkjtxW4p2N7ktAq0ZxK-EZGA8',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548514459',
+    'type' => 'trace',
+    'location_x' => '37.561394',
+    'location_y' => '118.578522',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-01-26 22:54:19 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-01-26 22:54:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjtxW4p2N7ktAq0ZxK-EZGA8]]></FromUserName>
+<CreateTime>1548514464</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>37.561394</Latitude>
+<Longitude>118.578522</Longitude>
+<Precision>530.000000</Precision>
+</xml>
+
+2019-01-26 22:54:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjtxW4p2N7ktAq0ZxK-EZGA8',
+    'createtime' => '1548514464',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '37.561394',
+    'longitude' => '118.578522',
+    'precision' => '530.000000',
+    'from' => 'oF_mkjtxW4p2N7ktAq0ZxK-EZGA8',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1548514464',
+    'type' => 'trace',
+    'location_x' => '37.561394',
+    'location_y' => '118.578522',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-01-26 22:54:24 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

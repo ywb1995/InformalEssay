@@ -1,0 +1,88 @@
+2019-02-09 06:22:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjsatBQU5yQcFmAubXBfrK8E]]></FromUserName>
+<CreateTime>1549664528</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>34.790714</Latitude>
+<Longitude>111.188782</Longitude>
+<Precision>250.000000</Precision>
+</xml>
+
+2019-02-09 06:22:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjsatBQU5yQcFmAubXBfrK8E',
+    'createtime' => '1549664528',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '34.790714',
+    'longitude' => '111.188782',
+    'precision' => '250.000000',
+    'from' => 'oF_mkjsatBQU5yQcFmAubXBfrK8E',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549664528',
+    'type' => 'trace',
+    'location_x' => '34.790714',
+    'location_y' => '111.188782',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-09 06:22:09 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-09 17:45:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjgrYn7dgdm68ZezqHzJ6tPE]]></FromUserName>
+<CreateTime>1549705499</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>29.720240</Latitude>
+<Longitude>120.235199</Longitude>
+<Precision>97.638664</Precision>
+</xml>
+
+2019-02-09 17:45:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjgrYn7dgdm68ZezqHzJ6tPE',
+    'createtime' => '1549705499',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '29.720240',
+    'longitude' => '120.235199',
+    'precision' => '97.638664',
+    'from' => 'oF_mkjgrYn7dgdm68ZezqHzJ6tPE',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549705499',
+    'type' => 'trace',
+    'location_x' => '29.720240',
+    'location_y' => '120.235199',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-09 17:45:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

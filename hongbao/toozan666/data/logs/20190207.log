@@ -1,0 +1,181 @@
+2019-02-07 15:44:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjnXrfsTxss8rUtYEZRD911g]]></FromUserName>
+<CreateTime>1549525444</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.303377</Latitude>
+<Longitude>120.137421</Longitude>
+<Precision>40.000000</Precision>
+</xml>
+
+2019-02-07 15:44:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjnXrfsTxss8rUtYEZRD911g',
+    'createtime' => '1549525444',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.303377',
+    'longitude' => '120.137421',
+    'precision' => '40.000000',
+    'from' => 'oF_mkjnXrfsTxss8rUtYEZRD911g',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549525444',
+    'type' => 'trace',
+    'location_x' => '30.303377',
+    'location_y' => '120.137421',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-07 15:44:05 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-07 15:44:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjnXrfsTxss8rUtYEZRD911g]]></FromUserName>
+<CreateTime>1549525496</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.303377</Latitude>
+<Longitude>120.137421</Longitude>
+<Precision>40.000000</Precision>
+</xml>
+
+2019-02-07 15:44:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjnXrfsTxss8rUtYEZRD911g',
+    'createtime' => '1549525496',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.303377',
+    'longitude' => '120.137421',
+    'precision' => '40.000000',
+    'from' => 'oF_mkjnXrfsTxss8rUtYEZRD911g',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549525496',
+    'type' => 'trace',
+    'location_x' => '30.303377',
+    'location_y' => '120.137421',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2019-02-07 15:44:56 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2019-02-07 16:21:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjg33ygyO77nrZhZ3j-Wgepc]]></FromUserName>
+<CreateTime>1549527702</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-02-07 16:21:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_74fc964c4914',
+    'fromusername' => 'oF_mkjg33ygyO77nrZhZ3j-Wgepc',
+    'createtime' => '1549527702',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oF_mkjg33ygyO77nrZhZ3j-Wgepc',
+    'to' => 'gh_74fc964c4914',
+    'time' => '1549527702',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '首次关注',
+  ),
+  'module' => 'reply',
+  'rule' => '9',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '116',
+    'rid' => '9',
+    'uniacid' => '2',
+    'module' => 'reply',
+    'content' => '首次关注',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+    'reply_type' => 
+    array (
+      0 => 'basic',
+    ),
+  ),
+  'reply_type' => 
+  array (
+    0 => 'basic',
+  ),
+)
+
+2019-02-07 16:21:42 response :
+------------
+Array:
+FromUserName : gh_74fc964c4914 ;
+ToUserName : oF_mkjg33ygyO77nrZhZ3j-Wgepc ;
+MsgType : text ;
+Content : 您好，感谢您关注奔瑞汽车用品！360°汽车服务解决方案提供商。业务领域涵盖高端美容、二手翻新及快速钣喷等，欢迎与我们联系。
+您也可以回复以下数字，查看相关信息。
+【1】品牌介绍
+【2】核心项目
+【3】合作支持
+【4】产品中心
+【5】联系方式
+您可以留言或拨打客服热线 4006669243 更多资讯，您可以访问奔瑞官网 www.benrui.cn
+意见，建议反馈信息请直接回复，谢谢。 ;
+
+2019-02-07 16:22:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjg33ygyO77nrZhZ3j-Wgepc]]></FromUserName>
+<CreateTime>1549527751</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2019-02-07 20:25:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_74fc964c4914]]></ToUserName>
+<FromUserName><![CDATA[oF_mkjuD7yM57gkc-Wmqe1SZJsaI]]></FromUserName>
+<CreateTime>1549542357</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
