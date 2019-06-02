@@ -171,6 +171,8 @@ $container->bind('supman',function ($container, ...$powerArr){
     return $supMan;
 });
 
+
+
 // 向该 超级工厂添加超能力模组的生产脚本
 $container->bind('XPower',function (){
     return new XPower(100);
