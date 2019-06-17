@@ -1,70 +1,54 @@
 <?php
-/**
- * 
- */
-class Node{
-    public $v;
-    public $next;
-    public function __construct($v)
-    {
-        $this->v = $v;
-//        $this->next = $next;
-    }
-
-}
 
 
-/**
- * 头插法
- * User: YWB
- * Date: 2019/6/15 0015
- * Time: 17:44
- * @param $n
- * @return Node|null
- */
 
-function headInsert($n)
-{
-    $obj = null;
-    for ($i = 0; $i < $n; $i++) {
-        $tmp = new Node($i);
-        if (is_null($obj)) {
-            $obj = $tmp;
-        } else {
-            $tmp->next = $obj;
+function getCurlCommand() {
+    try {
+        if (php_sapi_name() == 'error cli') {
+            throw new Exception("cli");
         }
-        $obj = $tmp;
 
-    }
-    return $obj;
-}
+        $curl_command = 'curl ';
+        $post_data = $get_data = '';
 
-
-/**
- * 尾插法
- * User: YWB
- * Date: 2019/6/15 0015
- * Time: 17:44
- * @param $n
- * @return Node|null
- */
-function tailInsert($n)
-{
-    $obj = null;
-    for ($i = 0; $i < $n; $i++) {
-        $tmp = new Node($i);
-        if (is_null($obj)) {
-            $obj = $tmp;
-        } else {
-            $next->next = $tmp;
+        if($_GET) {
+            $gets = http_build_query($_GET);
+            $get_data .= strpos($curl_command, '?') ? '&' . $gets : '?' . $gets;
         }
-        $next = $tmp;
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $posts = http_build_query($_POST);
+            $post_data = ' -d "' . $posts . '"';
+        }
+
+        $path = isset($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : $_SERVER['PHP_SELF'];
+        $curl_command .= '"' . "http://{$_SERVER['HTTP_HOST']}" . $path . $get_data . '"';
+        if ($post_data) {
+            $curl_command .= $post_data;
+        }
+
+        $headers = array();
+        if (function_exists('getallheaders')) {
+            $headers = getallheaders();
+        } else {
+            foreach ($_SERVER as $name => $value) {
+                if (substr($name, 0, 5) == 'HTTP_') {
+                    $headers[str_replace(' ', '-', ucwords(strtolower(str_replace('_', ' ', substr($name, 5)))))] = $value;
+                }
+            }
+        }
+        foreach ($headers as $key => $value) {
+            if($key == 'Accept-Encoding')  $value = str_replace('gzip, ', '', $value);
+            $curl_command .= ' -H "' . $key . ':' . $value . '"';
+        }
+
+        return $curl_command;
+    } catch (Exception $e) {
+        return $e->getMessage();
     }
-    return $obj;
+
 }
 
-$a = test1(3);
-print_r($a);
-
+echo getCurlCommand();
 
 
