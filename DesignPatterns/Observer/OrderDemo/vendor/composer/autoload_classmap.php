@@ -6,4 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'OrderDemo\\CommonInterface\\ObservableInterface' => $baseDir . '/CommonInterface/ObservableInterface.php',
+    'OrderDemo\\CommonInterface\\ObserverInterface' => $baseDir . '/CommonInterface/ObserverInterface.php',
+    'OrderDemo\\Observable\\Order' => $baseDir . '/Observable/Order.php',
+    'OrderDemo\\Observer\\Email' => $baseDir . '/Observer/Email.php',
+    'OrderDemo\\Observer\\Log' => $baseDir . '/Observer/Log.php',
 );

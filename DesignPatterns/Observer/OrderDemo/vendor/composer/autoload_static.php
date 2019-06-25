@@ -20,11 +20,20 @@ class ComposerStaticInitf60a25efbdaf297fc47517334a34381b
         ),
     );
 
+    public static $classMap = array (
+        'OrderDemo\\CommonInterface\\ObservableInterface' => __DIR__ . '/../..' . '/CommonInterface/ObservableInterface.php',
+        'OrderDemo\\CommonInterface\\ObserverInterface' => __DIR__ . '/../..' . '/CommonInterface/ObserverInterface.php',
+        'OrderDemo\\Observable\\Order' => __DIR__ . '/../..' . '/Observable/Order.php',
+        'OrderDemo\\Observer\\Email' => __DIR__ . '/../..' . '/Observer/Email.php',
+        'OrderDemo\\Observer\\Log' => __DIR__ . '/../..' . '/Observer/Log.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitf60a25efbdaf297fc47517334a34381b::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitf60a25efbdaf297fc47517334a34381b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitf60a25efbdaf297fc47517334a34381b::$classMap;
 
         }, null, ClassLoader::class);
     }
