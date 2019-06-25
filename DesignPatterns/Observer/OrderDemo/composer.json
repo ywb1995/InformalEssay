@@ -1,0 +1,15 @@
+{
+    "name": "administrator/order-demo",
+    "authors": [
+        {
+            "name": "YWB",
+            "email": "1540601646@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OrderDemo\\": "./"
+        }
+    }
+}
