@@ -1,4 +1,6 @@
 <?php
+
+
 $db = new PDO('mysql:host=localhost;dbname=test','root','root');
 
 // 获得用户名
