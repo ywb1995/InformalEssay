@@ -20,3 +20,23 @@ function randKing($n,$m){
 }
 
 echo randKing(3,2);
+
+
+function randKing1($n, $m)
+{
+    $arr = range(1, $n);
+    $i = 0;
+    while (count($arr) > 1) {
+
+        if ( ($i + 1) % $m == 0) {
+            unset($arr[$i]);
+        } else {
+            array_push($arr, $arr[$i]);
+            unset($arr[$i]);
+        }
+        $i++;
+    }
+    return current($arr);
+}
+echo randKing1(3,2);
+

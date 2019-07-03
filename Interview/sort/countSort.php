@@ -1,4 +1,7 @@
 <?php
+/**
+ * 计数排序
+ */
 
 
 function counting_sort($my_array, $min, $max)
