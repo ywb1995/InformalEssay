@@ -39,27 +39,25 @@ function ReverseList($pHead)
  * @param $nodeList
  * @return mixed
  */
-function reverseList1($nodeList)
+function reverseList1($list)
 {
-    if ($nodeList == null || $nodeList->next == null) {
-        return $nodeList;
+    if ($list == null || $list->next == null) {
+        return $list;
     }
 
-    $next = $nodeList->next;
-    $nodeList->next = null;
-    $head = $nodeList;
-
+    $next = $list->next;
+    $list->next = null;
     while ($next) {
         $r = $next->next;
-        $next->next = $head;
-        $head = $next;
+        $next->next = $list;
+        $list = $next;
         $next = $r;
     }
-    return $head;
+
+    return $list;
 }
 
-
-$result = (new SingleLinkList)->headInsert(4);
+$result = (new SingleLinkList)->headInsert(5);
 print_r($result);
 $result = reverseList1($result);
 print_r($result);

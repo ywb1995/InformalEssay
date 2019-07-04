@@ -42,10 +42,10 @@ function bubbleSort2($arr)
 {
     $length = count($arr);
 
-    for ($i = 0; $i < ($length - 1); $i ++) {
-        for ($j = 0; $j < ($length - 1 -$i); $j++) {
-            if ($arr[$j + 1] < $arr[$j]) {
-                list($arr[$j + 1], $arr[$j]) = [$arr[$j], $arr[$j +1]];
+    for ($i = 0; $i < ($length - 1); $i++) {
+        for ($j = 0; $j < ($length - 1 - $i); $j++) {
+            if ($arr[$j] < $arr[$j + 1]) {
+                list($arr[$j +1], $arr[$j]) = [$arr[$j], $arr[$j +1]];
             }
         }
     }
