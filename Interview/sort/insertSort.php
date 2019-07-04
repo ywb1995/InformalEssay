@@ -41,8 +41,31 @@ function insertSort($my_array){
     return $my_array;
 }
 
+
+function insertSort1($arr)
+{
+    $length = count($arr);
+
+    for ($i = 1; $i <($length); $i++) {
+        $val = $arr[$i]; //取出当前要比较的值
+        $j = $i - 1; //要比较的值的key
+
+        while ( $j >= 0 && $val > $arr[$j]) {
+            $arr[$j + 1] = $arr[$j]; //将$j位置的数向后移动，则$j就是$val应该在的位置
+            $j--;
+        }
+
+        $arr[$j + 1] = $val;
+    }
+
+    return $arr;
+
+}
+
 $test_array = array(3, 0, 2, 5, -1, 4, 1);
 echo "原始数组:\n";
 echo implode(', ',$test_array );
 echo "\n排序后数组 :\n";
 print_r(insertSort($test_array));
+
+print_r(insertSort1($test_array));

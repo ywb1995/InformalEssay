@@ -1,35 +1,66 @@
 <?php
 
+
+
 include 'SingleLinkList.php';
 //链表反转
 
 function ReverseList($pHead)
 {
-	if($pHead == null || $pHead->next == null){
-		return $pHead;
-	}
+    if($pHead == null || $pHead->next == null){
+        return $pHead;
+    }
+    $p = $pHead;
+    $q = $pHead->next;
+    $pHead->next = null;//$pHead 变为尾指针
+    while($q){
+        $r = $q->next;
 
-	//当前节点
-	$currentNode = $pHead->next;
-	//#前一节点 ，这里是根节点
-	$lastNode = $pHead;
-	$next = null;    #后一节点
+        $q->next = $p;
 
-	while ($currentNode) {
-		# code...
-		$next = $currentNode->next; //当前节点的下一节点
-		$currentNode->next = $lastNode;
+        $p = $q;
+        $q = $r;
+    }
+    return $p;
 
-		//后移动
-		$lastNode = $currentNode; 
-		$currentNode = $next; 
-	}
-	return $lastNode;
 }
+
+
+/**
+ * 翻转单链表思路：
+ * 1：获取头节点，并且将其next置为null。（尾节点的next为null）。同时为了保存剩下的节点信息。用$next(下一节点)存储下来
+ * 2:循环的将获取的头结点赋值给下一节点（$next）的下一节点($next->next),这时的$next就是排序好的链表
+ * 3:由于要将头节点赋值给$next->next，所以先用临时变量保存$next->next；记作$r
+ * 4:将排序号的链表（$next）赋值给$head（也就是新的头节点）给下次循环使用
+ * 5:返回$head
+ * User: YWB
+ * Date: 2019/7/3 0003
+ * Time: 14:28
+ * @param $nodeList
+ * @return mixed
+ */
+function reverseList1($nodeList)
+{
+    if ($nodeList == null || $nodeList->next == null) {
+        return $nodeList;
+    }
+
+    $next = $nodeList->next;
+    $nodeList->next = null;
+    $head = $nodeList;
+
+    while ($next) {
+        $r = $next->next;
+        $next->next = $head;
+        $head = $next;
+        $next = $r;
+    }
+    return $head;
+}
+
 
 $result = (new SingleLinkList)->headInsert(4);
 print_r($result);
-$result = ReverseList($result);
+$result = reverseList1($result);
 print_r($result);
 
-select sum(price ) as s from orders where group by user_id order by s having s >1000

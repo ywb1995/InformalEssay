@@ -23,8 +23,44 @@ function quick_sort($my_array)
 }
 
 
+/**
+ * 从大到小排序
+ * User: YWB
+ * Date: 2019/7/3 0003
+ * Time: 10:36
+ * @param array $arr
+ * @return mixed
+ */
+function quickSort($arr)
+{
+    if (count($arr) <= 1) {
+        return $arr;
+    }
+
+    $midValue = array_shift($arr);//取出一个元素当做中间值
+
+    $left = [];
+    $right = [];
+    foreach ($arr as $value) {
+        if ($value > $midValue) {
+            $left[] = $value;
+        } else {
+            $right[] = $value;
+        }
+    }
+
+    return array_merge(quickSort($left), [$midValue], quickSort($right));
+}
+
 $my_array = array(3, 0, 2, 5, -1, 4, 1);
 echo '原始数组 : '.implode(',',$my_array).'\n';
 $my_array = quick_sort($my_array);
 echo '排序后数组 : '.implode(',',$my_array);
+
+
+$my_array = array(3, 0, 2, 5, -1, 4, 1);
+
+$my_array = quickSort($my_array);
+var_dump($my_array);
+
 
