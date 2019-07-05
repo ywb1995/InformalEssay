@@ -43,23 +43,25 @@ function binarySearch($arr, $search)
 
 function binarySearch1($arr, $search)
 {
+    if (!is_array($arr) || empty($search)) {
+        return false;
+    }
+
     $length = count($arr);
     $high = $length - 1;
     $lower = 0;
 
-    while ($lower <= $high){
+    while ($high >= $lower) {
         $mid = intval(($high + $lower)/2);
-        if ($arr[$mid] > $search) {
-            $high = $mid -1;
-        } elseif($arr[$mid] < $search)  {
+        if ($arr[$mid] < $search) {
             $lower = $mid + 1;
-        }else {
+        } elseif ($arr[$mid] > $search) {
+            $high = $mid - 1;
+        } else {
             return $mid;
         }
     }
-    return false;
 }
-
 
 $arr = [1,2,3,4,10,20,66,88];
 echo binarySearch1($arr, 20);

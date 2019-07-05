@@ -19,6 +19,33 @@ Class Node{
     }
 }
 
+//头插法
+function headInsert($n)
+{
+    $head = null;
+
+    for ($i = 1; $i <= $n; $i++) {
+        $head = new Node($i, $head);
+    }
+    return $head;
+}
+
+
+//尾插法
+function wInsert($n)
+{
+    $r = null;
+    for ($i = 1; $i <= $n; $i++) {
+        if (is_null($r)) {
+            $r = $head =  new Node($i, null);
+        } else {
+            $r->next = new Node($i, null);
+            $r = $head->next;
+        }
+    }
+    return $head;
+}
+
 
 /**
  * TODO:构建单链表 
