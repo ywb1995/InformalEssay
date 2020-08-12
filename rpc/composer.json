@@ -1,0 +1,12 @@
+{
+    "name": "yangwb/rpc",
+    "authors": [
+        {
+            "name": "yangwb",
+            "email": "yangwb@2345.com"
+        }
+    ],
+    "require": {
+        "hprose/hprose": "^2.0"
+    }
+}
