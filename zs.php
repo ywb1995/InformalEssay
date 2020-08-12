@@ -18,6 +18,12 @@ $obj = new A();
     $this->doSomething($a);
 })->bindTo($obj, $obj)(2);
 
+//或者使用bind方法
+$nf = function($a) {
+    $this->doSomething($a);
+};
+$nf = Closure::bind($nf, $obj, $obj);
+$nf(1);
 // var_dump($a());
 // die;
 
